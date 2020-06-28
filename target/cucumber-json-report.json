@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9521254700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.open()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 207015500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDefination.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1615904900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Registar",
+            "match": {
+              "location": "StepDefination.user_click_on_Registar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521926700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fill up all the details",
+            "match": {
+              "location": "StepDefination.user_fill_up_all_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should create account",
+            "match": {
+              "location": "StepDefination.user_should_create_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "User want to Registar on website.",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "iceland.feature"
+  }
+]

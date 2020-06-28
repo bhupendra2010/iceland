@@ -1,0 +1,8 @@
+Feature: 
+  User want to Registar on website.
+
+  Scenario:                           [90m# iceland.feature:4[0m
+    [32mGiven [0m[32mUser is on homepage[0m         [90m# StepDefination.user_is_on_homepage()[0m
+    [32mAnd [0m[32mUser click on Registar[0m        [90m# StepDefination.user_click_on_Registar()[0m
+    [32mWhen [0m[32mUser fill up all the details[0m [90m# StepDefination.user_fill_up_all_the_details()[0m
+    [32mThen [0m[32mUser should create account[0m   [90m# StepDefination.user_should_create_account()[0m
