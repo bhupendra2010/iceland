@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.866166">
-<testcase classname="" name="" time="11.866166">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.556079">
+<testcase classname="" name="" time="13.556079">
 <system-out><![CDATA[Given User is on homepage...................................................passed
 And User click on Registar..................................................passed
 When User fill up all the details...........................................passed

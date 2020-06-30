@@ -26,6 +26,12 @@ public class Homepage extends DriverFactory {
             System.out.println(option.getText());
             dropdown.selectByVisibleText("Mr");
         }
+        driver.findElement(By.id("dwfrm_profile_customer_firstname")).sendKeys("Bhupendra");
+        driver.findElement(By.id("dwfrm_profile_customer_lastname")).sendKeys("Nayee");
+        driver.findElement(By.id("dwfrm_profile_address_phone")).sendKeys("07515637193");
+        driver.findElement(By.id("postal-code")).sendKeys("RH10 5HH");
+        driver.findElement(By.cssSelector("div[title='RH10 5HH']")).click();
+        driver.findElement(By.cssSelector("div[title='109 Winchester Road']")).click();
 
     }
 }
