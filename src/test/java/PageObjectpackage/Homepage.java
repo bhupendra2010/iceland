@@ -18,11 +18,11 @@ public class Homepage extends DriverFactory {
         JavascriptExecutor js=(JavascriptExecutor)driver;
         js.executeScript("window.scrollBy(0,300)");
     }
-    public void Detail(){
-        Select dropdown=new Select(driver.findElement(By.id("dwfrm_profile_customer_title")));
+    public void Detail() {
+        Select dropdown = new Select(driver.findElement(By.id("dwfrm_profile_customer_title")));
         System.out.println(dropdown.getOptions().size());
-        List<WebElement>options=dropdown.getOptions();
-        for (WebElement option:options){
+        List<WebElement> options = dropdown.getOptions();
+        for (WebElement option : options) {
             System.out.println(option.getText());
             dropdown.selectByVisibleText("Mr");
         }
@@ -32,6 +32,9 @@ public class Homepage extends DriverFactory {
         driver.findElement(By.id("postal-code")).sendKeys("RH10 5HH");
         driver.findElement(By.cssSelector("div[title='RH10 5HH']")).click();
         driver.findElement(By.cssSelector("div[title='109 Winchester Road']")).click();
+    }
+    public void homeback(){
+        driver.findElement(By.cssSelector("span[class='back-arrow-label']")).click();
 
     }
 }

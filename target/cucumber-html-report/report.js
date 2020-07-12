@@ -1,13 +1,13 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("iceland.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/bhupe/Iceland/src/test/resources/product.feature");
 formatter.feature({
   "line": 1,
   "name": "",
-  "description": "User want to Registar on website.",
+  "description": "User can put product in basket",
   "id": "",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 9002319700,
+  "duration": 8828391500,
   "status": "passed"
 });
 formatter.scenario({
@@ -20,50 +20,50 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "User is on homepage",
+  "name": "user is on homepage",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "User click on Registar",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "User fill up all the details",
+  "name": "User search for the product",
   "keyword": "When "
 });
 formatter.step({
+  "line": 7,
+  "name": "select the required product",
+  "keyword": "And "
+});
+formatter.step({
   "line": 8,
-  "name": "User should create account",
+  "name": "User should put selected products in basket",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefination.user_is_on_homepage()"
+  "location": "ProductStepDef.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 207084800,
+  "duration": 131572000,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefination.user_click_on_Registar()"
+  "location": "ProductStepDef.user_search_for_the_product()"
 });
 formatter.result({
-  "duration": 1951658300,
+  "duration": 2204665101,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefination.user_fill_up_all_the_details()"
+  "location": "ProductStepDef.select_the_required_product()"
 });
 formatter.result({
-  "duration": 2394974800,
+  "duration": 894171200,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefination.user_should_create_account()"
+  "location": "ProductStepDef.user_should_put_selected_products_in_basket()"
 });
 formatter.result({
-  "duration": 41300,
+  "duration": 1876999600,
   "status": "passed"
 });
 });

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.556079">
-<testcase classname="" name="" time="13.556079">
-<system-out><![CDATA[Given User is on homepage...................................................passed
-And User click on Registar..................................................passed
-When User fill up all the details...........................................passed
-Then User should create account.............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.935799">
+<testcase classname="" name="" time="13.935799">
+<system-out><![CDATA[Given user is on homepage...................................................passed
+When User search for the product............................................passed
+And select the required product.............................................passed
+Then User should put selected products in basket............................passed
 ]]></system-out>
 </testcase>
 </testsuite>

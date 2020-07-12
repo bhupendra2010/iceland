@@ -24,7 +24,7 @@ public class StepDefination {
 
     @Then("^User should create account$")
     public void user_should_create_account() throws Throwable {
-
+    page.homeback();
     }
 
 }
